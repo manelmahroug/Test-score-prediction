@@ -1,3 +1,5 @@
 pandas
 seaborn
--e .
+matplotlib
+
+#-e .
