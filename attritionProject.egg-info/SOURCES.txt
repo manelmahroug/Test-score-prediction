@@ -1,0 +1,7 @@
+README.md
+setup.py
+attritionProject.egg-info/PKG-INFO
+attritionProject.egg-info/SOURCES.txt
+attritionProject.egg-info/dependency_links.txt
+attritionProject.egg-info/requires.txt
+attritionProject.egg-info/top_level.txt
