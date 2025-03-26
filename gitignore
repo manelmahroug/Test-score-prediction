@@ -1,5 +1,5 @@
 *.egg-info/
 *.csv
-.artifacts
+.artifacts/
 .emp
 
