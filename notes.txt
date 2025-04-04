@@ -1,0 +1,2 @@
+When imports fail to run try running the file as a module using: python -m src.components.data_ingestion
+This tells python- “Start from the top-level folder and treat src like a module.”
