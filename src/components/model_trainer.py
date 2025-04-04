@@ -16,7 +16,7 @@ from xgboost import XGBRegressor
 
 from src.exception import CustomException
 from src.logger import logging
-from utils import save_object, evaluate_models
+from src.utils import save_object, evaluate_models
 
 
 @dataclass
@@ -26,7 +26,7 @@ class ModelTrainerConfig:
 class ModelTrainer:
     def __init__(self):
         self.model_trainer_config= ModelTrainerConfig()
-    def initiate_model_trainer (self,train_array, test_array, preprocessor_path):
+    def initiate_model_trainer (self,train_array, test_array):
         try:
             logging.info('Split training and test data')
             X_train,y_train,X_test,y_test= (
@@ -101,5 +101,6 @@ class ModelTrainer:
 
 
 
-        except:
-            pass
+        except Exception as e:
+            raise CustomException(e, sys)
+    
