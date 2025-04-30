@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: attritionProject
+Version: 0.0.1
+Author: manel
+Author-email: manel.khan@gmail.com
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
